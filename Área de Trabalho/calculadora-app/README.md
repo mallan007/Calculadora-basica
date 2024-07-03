@@ -23,4 +23,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
  npm i -g @vue/cli-init
 
  vue init webpack calculadora-app
- 
+
+ https://learn.microsoft.com/pt-br/training/modules/get-started-with-web-development/?WT.mc_id=livecondig-youtube-gllemos
+ https://dev.to/azure/desenvolvendo-calculadora-em-vue-js-logica-no-javascript-15n6
+ https://www.youtube.com/watch?v=UgK7vt70rN4
