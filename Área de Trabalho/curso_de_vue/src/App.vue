@@ -2,7 +2,6 @@
   <PrimeiroComponente />
   <PessoaVue />
   <FormVue />
-  <InfoVue />
 
 </template>
 
@@ -10,7 +9,6 @@
 import PrimeiroComponente from './components/PrimeiroComponente.vue';
 import PessoaVue from './components/PessoaVue.vue';
 import FormVue from './components/FormVue.vue';
-import InfoVue from './components/InfoVue.vue';
 
 
 export default {
@@ -19,7 +17,7 @@ export default {
     PrimeiroComponente,
     PessoaVue,
     FormVue,
-    InfoVue, 
+   
   
   }
 }
@@ -36,5 +34,7 @@ export default {
   color: blueviolet;
   margin: 150px;
   background-color: rgba(0, 0, 0, 0.885);
+  align-items: center;
+  
 }
 </style>

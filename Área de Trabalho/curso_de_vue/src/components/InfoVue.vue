@@ -1,5 +1,6 @@
 <template>
     <div>
+        <p> Este é o meu e-mail: {{ email }} </p>
         <p v-if="esta_trabalhando"> Sou do job. </p>
         <p v-else> Quero ser do job. </p>
         <p> Atualmente estou estudando: </p>
@@ -30,13 +31,15 @@ import PictureVue from './PictureVue.vue';
 export default {
     name: 'InfoVue',
     components: {
-        PictureVue
+        PictureVue,
+    },
+    props:{
+        email: String,
+        esta_trabalhando: Boolean,
     },
     data() {
         return{
-            esta_trabalhando: false,
             mostrar_email: false,
-            email: 'allanqueiroz.eng@gmail.com',
             meu_github: 'https://github.com/mallan007'  ,
             textoBotao: 'Mostrar e-mail',
             frontends: [
